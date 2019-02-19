@@ -1,0 +1,26 @@
+{
+  "name": "discord-regional-text",
+  "version": "1.0.0",
+  "description": "Converts any text to Discord regional text emojis",
+  "main": "index.js",
+  "dependencies": {
+    "copy-paste": "^1.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "pkg index.js --out-path build/",
+    "build-win": "pkg index.js -t node8-win-x64 --out-path build/",
+    "build-mac": "pkg index.js -t node8-macos-x64 --out-path build/",
+    "build-linux": "pkg index.js -t node8-linux-x64 --out-path build/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuiAzzi/Regional-Text-Converter.git"
+  },
+  "author": "Guilherme Azzi Annunciato",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GuiAzzi/Regional-Text-Converter/issues"
+  },
+  "homepage": "https://github.com/GuiAzzi/Regional-Text-Converter#readme"
+}
