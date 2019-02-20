@@ -22,7 +22,7 @@ npm i
 You can use [pkg](https://github.com/zeit/pkg) to build it into win/mac/linux executables
 
 ```npm
-npm install -g pkg
+npm i -g pkg
 ```
 
 Then run one of the following
