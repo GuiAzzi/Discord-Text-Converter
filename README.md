@@ -29,11 +29,11 @@ Then run one of the following
 
 ```bash
 npm run build #builds all 3 native executables
-or 
+
 npm run build-win
-or 
+
 npm run build-mac
-or 
+
 npm run build-linux
 ```
 
