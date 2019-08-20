@@ -27,8 +27,8 @@ npm i -g pkg
 
 Then run one of the following
 
-```npm
-npm run build
+```bash
+npm run build #builds all 3 native executables
 or 
 npm run build-win
 or 
@@ -36,7 +36,6 @@ npm run build-mac
 or 
 npm run build-linux
 ```
-The first command will build all 3 native executables.
 
 😎
 
